@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+* {
+    margin: 0;
+    padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.container {
+    height: 100vh;
+    font-family: 'Old Standard TT', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-size: 6.5em;
+    text-indent: 20px;
+}
+
+.container h2 {
+    font-size: 2em;
+}
+
+.title-part {
+    letter-spacing: 20px;
+}
+
+.title-binding {
+    position: relative;
+    top: -5px;
+    margin: -10px -55px 0 -55px;
+}
+
