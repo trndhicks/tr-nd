@@ -37,3 +37,17 @@
     margin: -10px -55px 0 -55px;
 }
 
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 667px) 
+and (-webkit-device-pixel-ratio : 2) {
+    .container h1 {
+        font-size: 5.5em;
+        text-indent: 20px;
+    }
+
+    .container h2 {
+        font-size: 1em;
+    }
+}
+
