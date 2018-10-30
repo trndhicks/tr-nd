@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
-
 * {
     margin: 0;
     padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
 .container {
     height: 100vh;
     font-family: 'Old Standard TT', serif;
@@ -17,37 +15,43 @@
     flex-direction: column;
     text-transform: uppercase;
 }
-
 .container h1 {
     font-size: 6.5em;
     text-indent: 20px;
 }
-
 .container h2 {
     font-size: 2em;
 }
-
 .title-part {
     letter-spacing: 20px;
 }
-
 .title-binding {
     position: relative;
     top: -5px;
-    margin: -10px -55px 0 -55px;
+    margin: 0 -55px;
 }
-
-@media only screen 
-and (device-width : 375px) 
-and (device-height : 667px) 
-and (-webkit-device-pixel-ratio : 2) {
+@media screen
+and (max-device-width : 414px) 
+and (max-device-height : 736px) {
     .container h1 {
-        font-size: 5.5em;
-        text-indent: 20px;
+        font-size: 4.5em !important;
+        text-indent: 20px !important;
     }
 
     .container h2 {
-        font-size: 1em;
+        font-size: 1em !important;
     }
 }
 
+@media screen
+and (max-device-width : 320px) 
+and (max-device-height : 568px) {
+    .container h1 {
+        font-size: 4em !important;
+        text-indent: 20px !important;
+    }
+
+    .container h2 {
+        font-size: 1em !important;
+    }
+}
